@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<?php /*?><? ob_start(); ?>
+<?php */?><!DOCTYPE html>
 <html lang="ar">
   <head>
     <meta charset="UTF-8" />
@@ -26,7 +27,33 @@
    	<script src="js/photoswipe.js"></script>
     <script src="js/photoswipe-ui-default.js"></script>
     <script type="text/javascript" src="js/navigation.js" charset="utf-8"></script>
-   
+    <!--<script type="text/javascript">
+    	 $(function() {
+      	
+      		$("li.cd-single-item-wrapper").click(function(e) {
+      			$("li.cd-single-item-wrapper").removeClass("active");
+				//$(".sub-menu").slideUp();
+      			$("ul.sub-menu li").removeClass("activechild");
+      			$("li.item-has-children").removeClass("active");
+      		$("ul.sub-menu li").click(function(e) {
+						//$(".sub-menu").slideDown();
+      					$("ul.sub-menu li").removeClass("activechild");
+      					$(this).addClass("activechild");
+      					
+      				});
+        		$(this).addClass("active");
+      		//$(".sub-menu").slideUp();
+      		});
+      		
+      		$("li.item-has-children").click(function(e) {
+				
+        		$(this).addClass("active");
+				//$(".sub-menu").slideDown();
+      		});
+      	});
+      
+        
+      	 </script>-->
    <script type="text/javascript">
     $(function() {
 		$("li.cd-single-item-wrapper").click(function(e) {
@@ -127,46 +154,11 @@
 				</header>
 					</div>
                 <nav id="cd-lateral-nav" class="lateral-menu-is-open">
-                                 
-    <div id="nav">
-<ul class='cd-navigation'><li id=00 class=cd-single-item-wrapper
-					data-expanded-icon='carat-u' data-collapsed-icon='carat-d'>
-					<a class=navlink href=#pages/051.html  @charset='utf-8'>Persian Grill</a> </li> <li id=00 class=cd-single-item-wrapper
-					data-expanded-icon='carat-u' data-collapsed-icon='carat-d'>
-					<a class=navlink href=#pages/047.html  @charset='utf-8'>Cold Mezzeh</a> </li> <li id=00 class=cd-single-item-wrapper
-					data-expanded-icon='carat-u' data-collapsed-icon='carat-d'>
-					<a class=navlink href=#pages/054.html  @charset='utf-8'>Indian Grill</a> </li> <li id=00 class=cd-single-item-wrapper
-					data-expanded-icon='carat-u' data-collapsed-icon='carat-d'>
-					<a class=navlink href=#pages/053.html  @charset='utf-8'>Persian Stews</a> </li> <li id=00 class=cd-single-item-wrapper
-					data-expanded-icon='carat-u' data-collapsed-icon='carat-d'>
-					<a class=navlink href=#pages/048.html  @charset='utf-8'>Hot Mezzeh</a> </li> <li id=00 class=cd-single-item-wrapper
-					data-expanded-icon='carat-u' data-collapsed-icon='carat-d'>
-					<a class=navlink href=#pages/055.html  @charset='utf-8'>Indian Daals And Curries</a> </li> <li id=00 class=cd-single-item-wrapper
-					data-expanded-icon='carat-u' data-collapsed-icon='carat-d'>
-					<a class=navlink href=#pages/049.html  @charset='utf-8'>Soup / Salads / Starters</a> </li> <li id=00 class=cd-single-item-wrapper
-					data-expanded-icon='carat-u' data-collapsed-icon='carat-d'>
-					<a class=navlink href=#pages/056.html  @charset='utf-8'>Indian Biryani</a> </li> <li id=00 class=cd-single-item-wrapper
-					data-expanded-icon='carat-u' data-collapsed-icon='carat-d'>
-					<a class=navlink href=#pages/050.html  @charset='utf-8'>The Village Specialities</a> </li> <li id=00 class=cd-single-item-wrapper
-					data-expanded-icon='carat-u' data-collapsed-icon='carat-d'>
-					<a class=navlink href=#pages/060.html  @charset='utf-8'>Baked Fresh To Order Breads</a> </li> <li id=00 class=cd-single-item-wrapper
-					data-expanded-icon='carat-u' data-collapsed-icon='carat-d'>
-					<a class=navlink href=#pages/061.html  @charset='utf-8'>Dessert</a> </li> <li id=00 class=item-has-children
-					data-expanded-icon='carat-u' data-collapsed-icon='carat-d'>
-					<a class=ui-button href=#0  @charset='utf-8'>Beverages</a><ul class="sub-menu" style="display:none;"><li id=62 class=cd-single-item-wrapper
-					data-expanded-icon='carat-u' data-collapsed-icon='carat-d'>
-					<a class=navlink href=#pages/064.html  @charset='utf-8'>Frappé</a> </li> <li id=62 class=cd-single-item-wrapper
-					data-expanded-icon='carat-u' data-collapsed-icon='carat-d'>
-					<a class=navlink href=#pages/065.html  @charset='utf-8'>Shakes</a> </li> <li id=62 class=cd-single-item-wrapper
-					data-expanded-icon='carat-u' data-collapsed-icon='carat-d'>
-					<a class=navlink href=#pages/066.html  @charset='utf-8'>Juices</a> </li> <li id=62 class=cd-single-item-wrapper
-					data-expanded-icon='carat-u' data-collapsed-icon='carat-d'>
-					<a class=navlink href=#pages/067.html  @charset='utf-8'>Mocktails</a> </li> <li id=62 class=cd-single-item-wrapper
-					data-expanded-icon='carat-u' data-collapsed-icon='carat-d'>
-					<a class=navlink href=#pages/068.html  @charset='utf-8'>Coffee</a> </li> <li id=62 class=cd-single-item-wrapper
-					data-expanded-icon='carat-u' data-collapsed-icon='carat-d'>
-					<a class=navlink href=#pages/069.html  @charset='utf-8'>Smoothie</a> </li> </ul>  </li> </ul> </div>
-		                 
+                <?php /*?><header>
+				<h1><img src="img/logo.png" /></h1>
+				</header><?php */?>
+                 <?php include 'menu_list_view.php'; ?>
+                 
                 </nav>
 		</div><!-- /navmenu -->
         
@@ -229,4 +221,18 @@
 </html>
 
  	
-	
+<?php /*?>	<? 
+		
+	//	$var1 = $product["product_id"];
+	//	$var1= sprintf("%03d", $var1);
+		$outputname = "index.html"; 
+
+
+		$page = ob_get_contents();
+		ob_end_flush();
+        
+		$fp = fopen("$outputname","w");
+		fwrite($fp,$page);
+		fclose($fp);
+		?>
+<?php */?>
