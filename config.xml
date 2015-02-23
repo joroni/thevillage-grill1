@@ -99,7 +99,7 @@
 <icon src="platforms/ios7/icons/icon-40@2x.png" gap:platform="ios" width="80" height="80" />
 
 
-
+<gap:splash src="splash.png" />
 
 <!-- iPhone and iPod touch -->
 <gap:splash src="platforms/ios7/splash/Default.png" gap:platform="ios" width="320" height="480" />
