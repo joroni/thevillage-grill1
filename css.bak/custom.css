@@ -17,6 +17,24 @@ div.ui-page {
 
 * { margin: 0; padding: 0; }
 
+/*
+ #w #pagebody {
+ left: 255px !important;
+ max-width: 99.1% !important;
+	max-height: 99.1% !important;
+ min-width: 320px !important;
+ position: relative;
+ z-index: 99999;
+ }*/
+/*#w #pagebody {
+ border: 1px solid #ccc;
+ left: 255px;
+ max-width: 100% !important;
+ min-width: 100% !important;
+ overflow: auto;
+ position: relative;
+ z-index: 99999;
+ }
  */
 #w #pagebody {
     left: 0;
@@ -27,7 +45,29 @@ div.ui-page {
     z-index: 99999;
 }
 
-
+/*#w #pagebody {
+ left: 0;
+ max-width: 100% !important;
+ min-width: 100%;
+	max-height:100%;
+	max-width:1005;
+ position: relative;
+ z-index: 99999;
+ }
+ */
+/*#w #pagebody #content {
+ background: none repeat scroll 0 0 #fff;
+ display: block;
+ height: 99%;
+ margin-top: 40px;
+ min-height: 550px;
+ padding: 5px 12px;*/
+/* width: 99%;
+ z-index: 9999;
+ }
+ */
+/*body { background: #181c1f; font-family:'Raleway', sans-serif !important; font-size: 62.5%; line-height: 1; }*/
+body { background: #fff !important; font-family:'Raleway', sans-serif !important; font-size: 62.5%; line-height: 1; }
 a { -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-touch-callout: none; }
 img { border: 0; }
 img.photo { padding: 2px; background: #888; border: 1px solid #cecece; border-bottom-color: #aaa; border-right-color: #aaa; float: right; margin-left: 20px; margin-right: 11px; }
@@ -37,7 +77,7 @@ ul,ol,h1,h2,h3,h4,h5,h6,p { display: block; }
 /*#w #pagebody { position: relative; left: 0; max-width: 640px; min-width: 320px; z-index: 99999; }*/
 /*#w #pagebody { position: relative; left: 0; max-width: 760px !important; min-width: 760px; z-index: 99999; }
  #w #navmenu, #w nav#cd-lateral-nav { background: url("../img/img-2.jpg") repeat fixed 1204px 881px #f4f4de !important; min-height: 760px; max-height: 800px; display: block; position: fixed; overflow-y:scroll; width: 255px !important; left: 0px !important; top: 0px !important; z-index: 0;  }*/
-
+#w #navmenu, #w nav#cd-lateral-nav { background: url("../img/img-1.jpg") repeat fixed 1204px 881px #252525 !important; min-height: 0 !important; max-height: 100%; display: block; width: 255px !important; left: 0px !important; top: 0px !important; z-index: 0;  }
 
 #w {
     border: 1px solid #ccc;
@@ -68,24 +108,16 @@ ul,ol,h1,h2,h3,h4,h5,h6,p { display: block; }
 }
 
 
-/*#w #pagebody #content.content-slide {
-    background: none repeat scroll 0 0 #a7120b !important;
-	
-	max-height:752px;
-	overflow:hidden;
-}*/
-
 #w #pagebody #content.content-slide {
-  /*  background: url("../img/medi_sidepannel.png") scroll 0 0 #a7120b !important;*/
-	 background: #ccc !important;
-	
+    background: none repeat scroll 0 0 #d3e2e7 !important;
+	/*max-height:720px;*/
 	max-height:752px;
 	overflow:hidden;
 }
 
 #w #pagebody #content h2 { border-bottom: 1px solid #ddd; border-top: 1px solid #ddd; color: #181818;
-    font-family: "Roboto", san-serif; font-size: 2.6em; line-height: 1.8em; font-weight: 500; margin-top: 25px; margin-bottom: 25px; padding: 12px 0; text-align: center; }
-#w #pagebody #content h3 { font-family:"Roboto", san-serif; font-weight: 700; font-size: 1.8em; line-height: 1.75em; text-transform: capitalize; margin-bottom: 5px; color: #222; }
+    font-family: "Raleway", san-serif; font-size: 2.6em; line-height: 1.8em; font-weight: 500; margin-top: 25px; margin-bottom: 25px; padding: 12px 0; text-align: center; }
+#w #pagebody #content h3 { font-family:"Raleway", san-serif; font-weight: 700; font-size: 1.8em; line-height: 1.75em; text-transform: capitalize; margin-bottom: 5px; color: #222; }
 #w #pagebody #content p { font-size: 1.4em; line-height: 1.6em; margin-bottom: 15px; color: #444; }
 #w #pagebody #content a { color: #78a5ce; }
 #w #pagebody #content a:hover { color: #678eb2; }
@@ -110,7 +142,7 @@ ul,ol,h1,h2,h3,h4,h5,h6,p { display: block; }
     border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
     
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05) inset !important;
-    border-top: 1px solid #a7120b !important;
+    border-top: 1px solid #d3e2e7 !important;
 }
 #w #navmenu header h1 { text-align: center; padding-top: 10px; color: #e6e8f2; font-weight: 100 !important; height:95px; font-size: 2.1em; text-shadow: 1px 1px 0px #313131; }
 /*#w #navmenu ul { list-style: none; background: #f4f4de !important; height: 100%; }*/
@@ -118,12 +150,12 @@ ul,ol,h1,h2,h3,h4,h5,h6,p { display: block; }
 #w #navmenu ul li {
     display: block;
     /*max-width: 220px !important;*/
-    max-width:99.9%;
+    max-width:100%;
     /* padding-left: 15px !important;*/
 }
 
-#w #navmenu ul li a:hover { color: #cad0e6; text-decoration: none; }
-#w #navmenu ul li a:active { background:#a7120b; color: #cad0e6; text-decoration: none; }
+#w #navmenu ul li a:hover { color: #a71309; text-decoration: none; }
+#w #navmenu ul li a:active { background:#333; color: #cad0e6; text-decoration: none; }
 #w #navmenu ul li a:after {
     content: '';
     display: block;
@@ -140,12 +172,10 @@ ul,ol,h1,h2,h3,h4,h5,h6,p { display: block; }
     transform: rotate(45deg);
 }
 
-/*li.active {
-    background: none repeat scroll 0 0 #333 !important;
-    border-bottom: 1px solid #222;
-    border-top: 0px solid #444;
+#w #navmenu ul li a:hover:after, #w #navmenu ul li:active { background:none !important; border-color: #cad0e6;}
+li.active {
+    background:#282b30;
 }
-*/
 /** @group misc **/
 .blue { color: #1c609f !important; font-weight: bold; }
 /** @group clearfix **/
@@ -203,7 +233,7 @@ body.ui-mobile-viewport.ui-overlay-a div.ui-loader.ui-corner-all.ui-body-a.ui-lo
     top:50px;
 }
 .ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head + body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head + body .ui-btn.ui-btn-a:visited {
-    background-color: #a7120b !important;
+    background-color: #bfc13e !important;
     background-color: transparent !important;
     border-color: transparent !important;
     color: #ddd !important;
@@ -216,11 +246,11 @@ div#navmenu.sideajax div#banner {
     height:127px;
 }
 nav#cd-lateral-nav {
-  /*  height: 600px !important;*/
+    height: 600px !important;
     overflow-y: auto;
     position: relative !important;
     top: 200px !important;
-   /* z-index: 1800 !important;*/
+/*    z-index: 1800 !important;*/
 	 -webkit-overflow-scrolling: touch !important; 
 }
 /*#w #navmenu.sideajax ul {
@@ -230,31 +260,27 @@ nav#cd-lateral-nav {
  position: fixed;
  top: 115px;
  }*/
-#w #navmenu.sideajax ul li a
-{
+#w #navmenu.sideajax ul li a {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
-    
+    border-top: 0 solid #a7120b !important;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05) inset !important;
-    border-top: 0px solid #a7120b !important;
     color: #ddd !important;
     display: block;
-    font-size: 1.5em !important;
+    font-size: 1.6em !important;
     font-weight: 100 !important;
+    letter-spacing: -0.008em;
     padding: 14px 20px !important;
     position: relative;
     text-decoration: none;
-    text-transform: capitalize !important;
-    letter-spacing:-0.008em;
     text-shadow: 0 1px 0 rgba(70, 70, 69, 0.5) !important;
+ /*   text-transform: lowercase !important;*/
 }
-
-
 
 
 
 /*#w #navmenu.sideajax ul li a
  {
- border-bottom: 1px solid #a7120b !important;
+ border-bottom: 1px solid #bfc13e !important;
  color: #11171f !important;
  display: block;
  font-size: 1.4em !important;
@@ -294,7 +320,7 @@ p.flip {
     box-shadow: 1px 1px 8px #555;
     color: #222;
     cursor: pointer;
-    font-family: "Roboto",sans-serif;
+    font-family: "Raleway",sans-serif;
     font-size: 1.5em;
     font-weight: 100;
     margin-left: 6px;
@@ -309,7 +335,7 @@ p.flip {
 }
 
 div#appver  {
-    color: #888;
+    color: #aeaeae;
     font-family: "Roboto",sans-serif;
     font-size: 1.2em;
     font-weight: 300;
@@ -321,9 +347,8 @@ div#appver  {
 }
 
 #wowslider-container1 .ws_thumbs div {
-    /*background-color: rgba(0, 0, 0, 0.8) !important;
-	background-color:#a7120b !important;*/
-	background-color:transparent !important;
+    /*background-color: rgba(0, 0, 0, 0.8) !important;*/
+	background-color:#d3e2e7 !important;
     border: 0 solid;
     height: auto !important;
     letter-spacing: -4px;
@@ -415,89 +440,26 @@ div#appver  {
 }
 
 
-
-
-div#sub-brand {
-    position: fixed;
-    right: 10px;
-    z-index: 200000;
-    width: 80px;
-}
-
-div#sub-brand img {
-    max-width: 100%;
-    min-width: 100%;
+a.item-prod.box img.example-image{
+    display: block;
+    float: left;
+    line-height: 0;
+	 box-shadow: 0 2px 4px #ddd;
+	  padding: 5px;
+    margin: 0 12px 12px 0;
+    width: 14rem !important;
 }
 
 
-/***************************** for tvr ****************/
-
-body {
-    -moz-osx-font-smoothing: grayscale;
-    background: none repeat scroll 0 0 #fefefe !important;
-    color: #282b30;
-    font-family: "Roboto", sans-serif !important;
-    font-feature-settings: "liga", "kern";
-    font-size: 18px;
-    line-height: 26px;
-    text-rendering: optimizelegibility;
-}
-
-
-.row {
-    margin: 0 auto !important;
-    max-width: 800px;
-    padding: 0 10px;
-    position: relative;
-}
-
-.pswp__caption__center {
-    color: #ccc;
-    font-size: 13px;
-    line-height: 20px;
-    margin: 0 auto;
-    max-width: 844px !important;
-    min-width: 563px !important;
-    padding: 10px;
-    text-align: left;
-}
-
-
-.pswp__caption small {
-    color: #bbb;
-    display: none;
-    font-size: 11px;
-}
 
 .pswp__caption {
-	 background-color: rgba(0, 0, 0, 0.5) !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
     bottom: 0;
     left: 0;
     min-height: 44px;
-    padding-bottom: 20px;
+    padding-bottom: 40px !important;
+    padding-top: 20px !important;
     position: absolute;
     width: 100%;
 }
-
-
-.section--head {
-    background: none repeat scroll 0 0 #fefefe !important;
-    margin: 0;
-    padding: 2px 0 !important;
-}
-
-.pswp img {
-    border: 10px solid rgba(255,255, 255, 1) !important;
-    max-width: none;
-    top: 1% !important;
-	max-width:844px !important;
-	max-height:844px !important;
-}
-
-
-.pswp__ui--fit .pswp__top-bar,  {
-    background-color: rgba(0, 0, 0, 0.1) !important;
-}
-
-
 
